@@ -1,0 +1,255 @@
+_type: export
+__export_format: 4
+__export_date: 2020-04-28T01:22:36.200Z
+__export_source: insomnia.desktop.app:v7.1.1
+resources:
+  - _id: req_7ed5fa25445d4123b0a7b56a34a003db
+    authentication: {}
+    body: {}
+    created: 1588032961007
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1588032961007
+    method: GET
+    modified: 1588033798844
+    name: /projects
+    parameters: []
+    parentId: fld_ec6c7b82360d4eeea78071deb09b3d22
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:3000/projects
+    _type: request
+  - _id: fld_ec6c7b82360d4eeea78071deb09b3d22
+    created: 1588032944951
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1588032944952
+    modified: 1588032944951
+    name: Desafio 01
+    parentId: fld_2ae8001d96d9434a96515f64f94607bd
+    _type: request_group
+  - _id: fld_2ae8001d96d9434a96515f64f94607bd
+    created: 1587862630894
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1587862630894
+    modified: 1587862630894
+    name: GoStack 9.0
+    parentId: wrk_6ac20817342d4035be7c1c28914a6e7b
+    _type: request_group
+  - _id: wrk_6ac20817342d4035be7c1c28914a6e7b
+    created: 1570160031421
+    description: ""
+    modified: 1570160031421
+    name: Insomnia
+    parentId: null
+    _type: workspace
+  - _id: req_77f6ba8fc7884dcea5a798c142c3bd25
+    authentication: {}
+    body:
+      mimeType: application/json
+      text: |-
+        {
+          "id": "2",
+          "title": "Novo projeto",
+          "tasks": ["API Rest"]
+        }
+    created: 1588033783385
+    description: ""
+    headers:
+      - id: pair_41de779ebc8e4e508416e1abc828d9d2
+        name: Content-Type
+        value: application/json
+    isPrivate: false
+    metaSortKey: -1587948302959
+    method: POST
+    modified: 1588036600243
+    name: /projects
+    parameters: []
+    parentId: fld_ec6c7b82360d4eeea78071deb09b3d22
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:3000/projects
+    _type: request
+  - _id: req_98e2580b401c4df8b4d60931ebbe4531
+    authentication: {}
+    body:
+      mimeType: application/json
+      text: |-
+        {
+          "title": "React JS"
+        }
+    created: 1588036018584
+    description: ""
+    headers:
+      - id: pair_41de779ebc8e4e508416e1abc828d9d2
+        name: Content-Type
+        value: application/json
+    isPrivate: false
+    metaSortKey: -1587927138447
+    method: POST
+    modified: 1588036661027
+    name: /projects/:id/tasks
+    parameters: []
+    parentId: fld_ec6c7b82360d4eeea78071deb09b3d22
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:3000/projects/0/tasks
+    _type: request
+  - _id: req_d7e4a33617524538963989cc6dd231d9
+    authentication: {}
+    body:
+      mimeType: application/json
+      text: |-
+        {
+          "title": "Back-end"
+        }
+    created: 1588035598596
+    description: ""
+    headers:
+      - id: pair_41de779ebc8e4e508416e1abc828d9d2
+        name: Content-Type
+        value: application/json
+    isPrivate: false
+    metaSortKey: -1587905973935
+    method: PUT
+    modified: 1588036625594
+    name: /projects/:id
+    parameters: []
+    parentId: fld_ec6c7b82360d4eeea78071deb09b3d22
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:3000/projects/1
+    _type: request
+  - _id: req_f042beae3faa401cbdd86c2c83871428
+    authentication: {}
+    body: {}
+    created: 1588035907042
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1587884809423
+    method: DELETE
+    modified: 1588035957338
+    name: /projects/:id
+    parameters: []
+    parentId: fld_ec6c7b82360d4eeea78071deb09b3d22
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: http://localhost:3000/projects/0
+    _type: request
+  - _id: req_8416c60382934efea7ae55ea472620bb
+    authentication: {}
+    body: {}
+    created: 1586646996213
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1586646996213
+    method: GET
+    modified: 1586647114578
+    name: getAnime
+    parameters: []
+    parentId: fld_92917881f4c147a794706fbe7ae6005f
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: https://api.jikan.moe/v3/anime
+    _type: request
+  - _id: fld_92917881f4c147a794706fbe7ae6005f
+    created: 1586646146112
+    description: ""
+    environment: {}
+    environmentPropertyOrder: null
+    metaSortKey: -1586646146112
+    modified: 1586646340374
+    name: API Jikan.moe
+    parentId: wrk_6ac20817342d4035be7c1c28914a6e7b
+    _type: request_group
+  - _id: req_0027cbf8a8c64ffa98a3e43c50c257b1
+    authentication: {}
+    body: {}
+    created: 1586646217659
+    description: ""
+    headers: []
+    isPrivate: false
+    metaSortKey: -1586646217659
+    method: GET
+    modified: 1586647003573
+    name: getPorNome
+    parameters: []
+    parentId: fld_92917881f4c147a794706fbe7ae6005f
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingFollowRedirects: global
+    settingRebuildPath: true
+    settingSendCookies: true
+    settingStoreCookies: true
+    url: https://api.jikan.moe/v3/search/anime?q=Boku no Hero
+    _type: request
+  - _id: env_cda946a2733a4505c1162058be6f507b92a3c183
+    color: null
+    created: 1570160031505
+    data: {}
+    dataPropertyOrder: null
+    isPrivate: false
+    metaSortKey: 1570160031505
+    modified: 1570160031505
+    name: Base Environment
+    parentId: wrk_6ac20817342d4035be7c1c28914a6e7b
+    _type: environment
+  - _id: jar_cda946a2733a4505c1162058be6f507b92a3c183
+    cookies:
+      - creation: 2020-04-11T22:59:27.422Z
+        domain: myanimelist.net
+        expires: 2030-04-09T22:59:25.000Z
+        hostOnly: true
+        httpOnly: true
+        id: "06678395886242527"
+        key: MALSESSIONID
+        lastAccessed: 2020-04-11T22:59:27.422Z
+        maxAge: 315360000
+        path: /
+        secure: true
+        value: 41f9jdcs19vjr86reshqvuo3v0
+      - creation: 2020-04-11T22:59:27.423Z
+        domain: myanimelist.net
+        expires: 2025-04-10T22:59:25.000Z
+        hostOnly: true
+        id: "36796638594345055"
+        key: MALHLOGSESSID
+        lastAccessed: 2020-04-11T22:59:27.423Z
+        maxAge: 157680000
+        path: /
+        value: fce263eb9050204506c1ba5de84ecea4
+    created: 1570160031549
+    modified: 1586645967424
+    name: Default Jar
+    parentId: wrk_6ac20817342d4035be7c1c28914a6e7b
+    _type: cookie_jar
